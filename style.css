@@ -64,6 +64,7 @@
     select {
         font: inherit;
     }
+
     /* Utilities */
         
     .display-none {
@@ -200,7 +201,7 @@ article {
 }
 
 @media (min-width: 768px) {
-    aticle {
+    article {
         padding: 56px;
     }
 }
@@ -298,9 +299,9 @@ footer {
         justify-content: center;
     }
 
-    footer .socials-icon [
+    footer .socials-icon {
         margin-left: 20px;
         margin-right: 20px;
-    ]
+    }
 }
 
